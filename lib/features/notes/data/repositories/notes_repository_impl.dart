@@ -6,6 +6,7 @@ import '../../domain/repositories/notes_repository.dart';
 import '../datasources/file_system_datasource.dart';
 import '../models/note_model.dart';
 
+/// Implementación concreta de [NotesRepository] que utiliza un [FileSystemDataSource] para gestionar las notas en el sistema de archivos.
 class NotesRepositoryImpl implements NotesRepository {
   final FileSystemDataSource dataSource;
   List<Note> _cachedNotes = [];
