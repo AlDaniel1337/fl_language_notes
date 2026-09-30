@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:language_notes/features/notes/domain/entities/note.dart';
-import 'package:language_notes/features/notes/domain/repositories/notes.repository.dart';
+import 'package:language_notes/features/notes/domain/repositories/notes_repository.dart';
 import 'package:language_notes/features/notes/domain/usecases/rescan_directory.dart';
 import 'package:mocktail/mocktail.dart';
 

@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
 import '../../../../core/error/failures.dart';
 import '../entities/study_card.dart';
-import '../repositories/notes.repository.dart';
+import 'notes_repository.dart';
 
 class GetRandomStudyCardsUseCase {
   final NotesRepository repository;
